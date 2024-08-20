@@ -1,0 +1,1 @@
+scoreboard players set #ActiveVotes mbm.votes 0

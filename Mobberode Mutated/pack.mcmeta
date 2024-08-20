@@ -1,0 +1,9 @@
+{
+    "pack": {
+        "pack_format": 48,
+        "description": "Mobberode Mutated"
+    },
+    "filter": {
+        "block": [{"path":"advancement"},{"path":"recipe"}]
+    }
+}
