@@ -1,1 +1,1 @@
-scoreboard players set #ActiveVotes mbm.votes 0
+scoreboard players set #VotedPlayers mbm.votes 0

@@ -1,0 +1,2 @@
+data modify storage mbm.saves saves set value [{slot:1,used:false,match:{wave:0,cap:0},pids:[],gamerules:[]}]
+data modify storage minecraft:mbm.saves saves[0].pids append value {player:{name:Icement,UUID:666},id:1,playerdata:[{team:Waiting}]}
