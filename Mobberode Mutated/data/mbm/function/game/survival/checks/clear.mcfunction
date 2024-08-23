@@ -1,0 +1,1 @@
+execute if score #Spawned mbm.mobcap >= #Cap mbm.mobcap unless entity @e[limit=1,tag=mbm.enemy] run function mbm:game/survival/clear_wave
