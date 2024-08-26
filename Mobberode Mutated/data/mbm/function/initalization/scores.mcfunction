@@ -5,7 +5,12 @@ scoreboard objectives add mbm.votes dummy
 scoreboard objectives add mbm.players dummy
 scoreboard objectives add mbm.condition dummy
 
+scoreboard objectives add mbm.counter dummy
+scoreboard objectives add mbm.mobcap_specfic dummy
 scoreboard objectives add mbm.mobcap dummy
+
+scoreboard players set #ActiveCap mbm.mobcap 128
+#scoreboard players set #ActiveCap mbm.mobcap 512
 
 scoreboard objectives add mbm.role trigger
 

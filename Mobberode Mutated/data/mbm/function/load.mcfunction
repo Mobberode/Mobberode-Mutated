@@ -2,6 +2,7 @@ function gu:zzz/load
 function mbm:initalization/teams
 function mbm:initalization/settings
 function mbm:initalization/scores
+function mbm:initalization/storages
 function mbm:roles
 
 execute if data storage mbm.saves saves run function mbm:saves/prompt
