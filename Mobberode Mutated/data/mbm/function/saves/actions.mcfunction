@@ -1,0 +1,3 @@
+execute if items entity @s player.cursor paper[custom_data={mbm_saves.action:access_saves}] run return run function mbm:saves/menu/saves/save_finder_init
+execute if items entity @s player.cursor paper[custom_data={mbm_saves.action:new_game}] run return run function mbm:saves/menu/new_game
+execute if items entity @s player.cursor paper[custom_data={mbm_saves.action:last_played}] run function mbm:saves/menu/last_played
