@@ -7,6 +7,8 @@ scoreboard objectives add mbm.players dummy
 scoreboard objectives add mbm.condition dummy
 scoreboard objectives add mbm.died deathCount
 scoreboard objectives add mbm.savefile dummy
+scoreboard objectives add mbm.savepage dummy
+scoreboard objectives add mbm.game_savable dummy
 
 scoreboard objectives add mbm.counter dummy
 scoreboard objectives add mbm.mobcap_specfic dummy

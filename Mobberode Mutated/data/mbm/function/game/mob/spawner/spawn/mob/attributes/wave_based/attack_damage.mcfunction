@@ -1,0 +1,1 @@
+$execute as @e[type=zombie] run attribute @s minecraft:attack_damage modifier add test $(wave) add_value

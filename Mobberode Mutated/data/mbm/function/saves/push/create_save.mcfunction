@@ -1,0 +1,1 @@
+$data modify storage mbm.saves saves[{uuid:$(saved_uuid)}].savedata append value {slot:$(save_count),used:false,match:{wave:0,cap:0},pids:[],gamerules:{standard:[],custom:[]}}
