@@ -5,3 +5,5 @@ execute store result storage mbm.uuids current_savenum int 1 run scoreboard play
 
 item replace entity @s player.cursor with air
 function mbm:saves/menu/saves/initalize_inventory_hud
+
+playsound item.book.page_turn player @s
