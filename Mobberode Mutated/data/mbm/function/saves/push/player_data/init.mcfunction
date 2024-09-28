@@ -5,6 +5,3 @@ data modify storage mbm.uuids saved_uuid set from storage gu:main out
 
 ##Store data
 function mbm:saves/push/player_data/check with storage mbm.uuids
-
-#Position and Rotation
-function mbm:saves/push/player_data/init

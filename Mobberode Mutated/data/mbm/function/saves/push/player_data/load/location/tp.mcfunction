@@ -1,0 +1,1 @@
+$tp @s $(location_x) $(location_y) $(location_z) $(location_rot1) $(location_rot2) 
