@@ -1,0 +1,1 @@
+$execute as $(saved_uuid) run function mbm:saves/push/player_data/load/health/restore with storage mbm.saves_temp

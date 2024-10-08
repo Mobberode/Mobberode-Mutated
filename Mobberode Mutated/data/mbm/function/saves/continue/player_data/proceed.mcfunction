@@ -7,3 +7,9 @@ function mbm:saves/push/player_data/load/inventory/init
 
 #Position and Location
 function mbm:saves/push/player_data/load/location/init
+
+#Health
+function mbm:saves/push/player_data/load/health/init
+
+#Condition
+scoreboard players set #HasData mbm.condition 1

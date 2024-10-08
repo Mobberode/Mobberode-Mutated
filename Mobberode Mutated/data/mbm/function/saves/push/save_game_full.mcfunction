@@ -1,1 +1,0 @@
-$data modify storage mbm.saves saves[{uuid:$(savedata_uuid)}].savedata[{slot:$(current_savenum)}] set from storage mbm.saves_temp save_data

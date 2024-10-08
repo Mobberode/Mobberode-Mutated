@@ -1,0 +1,1 @@
+function mbm:game/player/setup/plrset

@@ -4,9 +4,7 @@
       "minecraft:armor_stand",
       "minecraft:arrow",
       "minecraft:block_display",
-      "minecraft:boat",
       "minecraft:breeze_wind_charge",
-      "minecraft:chest_boat",
       "minecraft:chest_minecart",
       "minecraft:command_block_minecart",
       "minecraft:dragon_fireball",
@@ -45,6 +43,17 @@
       "minecraft:tnt_minecart",
       "minecraft:trident",
       "minecraft:wind_charge",
-      "minecraft:wither_skull"
+      "minecraft:wither_skull",
+      "chest_minecart",
+      "cherry_chest_boat",
+      "oak_chest_boat",
+      "birch_chest_boat",
+      "acacia_chest_boat",
+      "bamboo_chest_raft",
+      "jungle_chest_boat",
+      "spruce_chest_boat",
+      "dark_oak_chest_boat",
+      "mangrove_chest_boat",
+      "pale_oak_chest_boat"
     ]
 }

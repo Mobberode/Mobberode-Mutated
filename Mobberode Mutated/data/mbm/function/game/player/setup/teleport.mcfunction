@@ -1,0 +1,1 @@
+tp @s @e[limit=1,tag=zs.plrspawn,sort=random]

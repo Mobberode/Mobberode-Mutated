@@ -1,0 +1,1 @@
+execute as @a[team=!Alive] run function mbm:game/survival/player/death/spawnpoint_energy_calc
