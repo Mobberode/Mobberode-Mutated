@@ -1,6 +1,7 @@
 ##Make new save file
 #State = true
 scoreboard players set #State mbm.game_savable 1
+scoreboard players set #Continues mbm.counter 2
 #Get UUID
 function gu:generate
 data modify storage mbm.uuids saved_uuid set from storage gu:main out

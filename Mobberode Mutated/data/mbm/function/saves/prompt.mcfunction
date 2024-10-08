@@ -1,3 +1,4 @@
+kill @e[tag=mbm.mob]
 clear @s
 item replace entity @s hotbar.0 with paper[custom_name="{\"text\":\"Savefiles\",\"color\":\"gold\"}",custom_data={mbm_saves.action:access_saves}]
 item replace entity @s hotbar.4 with paper[custom_name="{\"text\":\"New Game (No Saving)\",\"color\":\"red\"}",custom_data={mbm_saves.action:new_game}]

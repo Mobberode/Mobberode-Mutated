@@ -1,3 +1,4 @@
+scoreboard players set #State mbm.game_savable 1
 clear @a
 #execute store result storage mbm.uuids current_savenum int 1 run scoreboard players remove @p[tag=mbm.host] mbm.savepage 1
 ##Restore all match data (waves,lives and other things)

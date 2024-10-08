@@ -6,6 +6,7 @@ $data modify storage mbm.saves_temp save_data set from storage mbm.saves saves[{
 ##Edit temp storage
 execute store result storage mbm.saves_temp save_data.match.wave int 1 run scoreboard players get #Wave mbm.wave
 execute store result storage mbm.saves_temp save_data.match.lives int 1 run scoreboard players get #Lives mbm.lives
+execute store result storage mbm.saves_temp save_data.match.retries int 1 run scoreboard players get #Continues mbm.counter
 
 ##Store spawner data in save
 data modify storage mbm.saves_temp save_data.spawner_data.entry_mobpool{} set from storage mbm.active_spawner entry_mobpool

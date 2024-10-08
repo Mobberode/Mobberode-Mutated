@@ -2,6 +2,7 @@
 tp ~ ~ ~
 
 ##Tags
+team join Dead
 tag @s remove mbm.initalize_mob
 tag @s add mbm.mob
 
