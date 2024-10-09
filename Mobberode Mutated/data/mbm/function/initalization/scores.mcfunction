@@ -18,6 +18,8 @@ scoreboard objectives add mbm.mobcap_specfic dummy
 scoreboard objectives add mbm.mobcap dummy
 
 scoreboard players set #ActiveCap mbm.mobcap 128
+scoreboard players set #FoodTickMax mbm.condition 2
+scoreboard players set #ArrowTickMax mbm.condition 2
 #scoreboard players set #ActiveCap mbm.mobcap 512
 
 scoreboard objectives add mbm.role trigger

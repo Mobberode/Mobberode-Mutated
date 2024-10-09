@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "team": "Dead"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "mbm:game/currency/hit_point"
+    },
+    "sends_telemetry_event": false
+  }  
