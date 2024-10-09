@@ -1,3 +1,6 @@
+##Extra check
+function mbm:host/savedata_check
+
 scoreboard players set #Status mbm.game_status 0
 kill @e[tag=mbm.mob]
 clear @s

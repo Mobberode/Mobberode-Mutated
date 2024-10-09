@@ -1,1 +1,1 @@
-execute as @r[tag=!mbm.host] run function mbm:host/host_initalize
+execute unless entity @r[tag=mbm.host] as @r[tag=!mbm.host] run function mbm:host/host_initalize
