@@ -1,4 +1,3 @@
-scoreboard players set #Status mbm.game_status 1
 scoreboard players set #Wave mbm.wave 0
 scoreboard players set #Lives mbm.lives 2
 function mbm:game/pre_match/manage_storages

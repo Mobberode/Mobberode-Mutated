@@ -1,7 +1,7 @@
 ##Start survival
 function mbm:game/votes/reset_votes
 function mbm:game/pre_match/player_loop
-scoreboard players set #Status mbm.game_status 2
+scoreboard players set #Status mbm.game_status 3
 scoreboard players set #Milisecond mbm.timer 0
 scoreboard players set #Second mbm.timer 30
 scoreboard players set #Minute mbm.timer 0

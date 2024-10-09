@@ -1,3 +1,4 @@
+scoreboard players set #Status mbm.game_status 2
 scoreboard players set #Milisecond mbm.timer 0
 scoreboard players set #Second mbm.timer 60
 scoreboard players set #Minute mbm.timer 0

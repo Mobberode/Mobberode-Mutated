@@ -1,3 +1,4 @@
+scoreboard players set #Status mbm.game_status 0
 kill @e[tag=mbm.mob]
 clear @s
 item replace entity @s hotbar.0 with paper[custom_name="{\"text\":\"Savefiles\",\"color\":\"gold\"}",custom_data={mbm_saves.action:access_saves}]

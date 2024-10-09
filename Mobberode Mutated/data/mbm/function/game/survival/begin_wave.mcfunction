@@ -1,5 +1,6 @@
 ##Start wave
-scoreboard players set #Status mbm.game_status 3
+execute as @a run function mbm:game/survival/player/refresh_conditions
+scoreboard players set #Status mbm.game_status 4
 scoreboard players set #Spawned mbm.mobcap 0
 execute as @a at @s run playsound item.trident.thunder player @s
 title @a actionbar [{"text":"New Wave Started"}]

@@ -9,4 +9,4 @@ execute if score #Spawned mbm.mobcap >= #Cap mbm.mobcap run return run function 
 function mbm:game/mob/spawner/proceed
 
 #Loop
-schedule function mbm:game/mob/spawner 1t
+execute if score #Status mbm.game_status matches 4 run schedule function mbm:game/mob/spawner 1t
