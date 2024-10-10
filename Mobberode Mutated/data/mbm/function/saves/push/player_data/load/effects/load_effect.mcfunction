@@ -1,0 +1,1 @@
+$effect give @s $(effect_id) $(effect_duration) $(effect_amplifier) $(effect_is_invisible)

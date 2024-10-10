@@ -1,2 +1,2 @@
-attribute @s minecraft:max_health base set 1023
+attribute @s minecraft:max_health modifier add mbm.internal_max 1023 add_value
 effect give @s minecraft:instant_health 1 252

@@ -1,0 +1,1 @@
+$attribute @s $(attribute_id) modifier add $(attribute_modifiers_id) $(attribute_modifiers_amount) $(attribute_modifiers_operation)
