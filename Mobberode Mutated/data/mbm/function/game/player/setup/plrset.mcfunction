@@ -7,4 +7,5 @@ function mbm:game/player/gear/give
 
 function mbm:game/player/setup/teleport
 
+scoreboard players set @s mbm.souls 0
 tag @s add mbm.has_played_once

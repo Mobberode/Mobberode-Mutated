@@ -1,5 +1,4 @@
 execute store result score #Health mbm.condition run data get storage mbm.saves_temp player_data.health
-data modify storage mbm.saves_temp max_health set from storage mbm.saves_temp player_data.max_health
 
 scoreboard players set #MaxHealth mbm.condition 1023
 

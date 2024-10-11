@@ -20,5 +20,8 @@ function mbm:saves/push/player_data/load/attributes/init
 #Effects
 function mbm:saves/push/player_data/load/effects/init
 
+#Souls
+function mbm:saves/push/player_data/load/souls/restore
+
 #Condition
 scoreboard players set #HasData mbm.condition 1

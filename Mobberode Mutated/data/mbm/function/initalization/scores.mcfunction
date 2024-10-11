@@ -13,6 +13,8 @@ scoreboard objectives add mbm.savefile_last_played dummy
 scoreboard objectives add mbm.spawnpoint_energy dummy
 scoreboard objectives add mbm.visual_spawnpoint_energy dummy
 scoreboard objectives add mbm.relogged custom:leave_game
+scoreboard objectives add mbm.opened_shop custom:open_enderchest
+scoreboard objectives add mbm.souls dummy
 
 scoreboard objectives add mbm.counter dummy
 scoreboard objectives add mbm.mobcap_specfic dummy
