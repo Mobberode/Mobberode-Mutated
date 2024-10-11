@@ -1,0 +1,1 @@
+$clear @s arrow $(death_penalty_arrows)

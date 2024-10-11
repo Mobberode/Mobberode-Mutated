@@ -1,0 +1,1 @@
+$clear @s rabbit_stew $(death_penalty_stews)

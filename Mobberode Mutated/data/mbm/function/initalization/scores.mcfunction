@@ -9,6 +9,7 @@ scoreboard objectives add mbm.died deathCount
 scoreboard objectives add mbm.savefile dummy
 scoreboard objectives add mbm.savepage dummy
 scoreboard objectives add mbm.game_savable dummy
+scoreboard objectives add mbm.savefile_last_played dummy
 scoreboard objectives add mbm.spawnpoint_energy dummy
 scoreboard objectives add mbm.visual_spawnpoint_energy dummy
 scoreboard objectives add mbm.relogged custom:leave_game
@@ -25,6 +26,7 @@ scoreboard players set #ArrowTick mbm.condition 2
 
 scoreboard players set #Tick mbm.counter 20
 scoreboard players set #128 mbm.counter 128
+scoreboard players set #2 mbm.counter 2
 #scoreboard players set #ActiveCap mbm.mobcap 512
 
 scoreboard objectives add mbm.role trigger
