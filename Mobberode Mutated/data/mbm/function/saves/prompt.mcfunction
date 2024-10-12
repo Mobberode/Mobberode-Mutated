@@ -1,9 +1,19 @@
-##Extra check
-function mbm:host/savedata_check
-
+##Clear and Reset
 scoreboard players set #Status mbm.game_status 0
 kill @e[tag=mbm.mob]
-clear @s
+kill @e[type=item]
+clear @a
+
+##Run host disconnect check and relog check
+function mbm:game/survival/checks/relog
+function mbm:game/survival/player/relog/host_check
+#Verify uuid
+function mbm:host/verify_uuid
+#Extra check
+function mbm:host/savedata_check
+#Timer
+execute if score #State mbm.internal_config.is_server matches 1 run function mbm:game/pre_match/lobby/lobby_timer_init
+
 item replace entity @s hotbar.0 with paper[custom_name="{\"text\":\"Savefiles\",\"color\":\"gold\"}",custom_data={mbm_saves.action:access_saves}]
 item replace entity @s hotbar.4 with paper[custom_name="{\"text\":\"New Game (No Saving)\",\"color\":\"red\"}",custom_data={mbm_saves.action:new_game}]
 item replace entity @s hotbar.8 with paper[custom_name="{\"text\":\"Last Played Savefile\",\"color\":\"blue\"}",custom_data={mbm_saves.action:last_played}]

@@ -1,0 +1,2 @@
+execute as @a[scores={mbm.relogged=1..}] run function mbm:game/survival/player/relog/reset
+execute unless score #Status mbm.game_status matches 4 run schedule function mbm:game/survival/checks/relog 1t

@@ -20,6 +20,8 @@ scoreboard objectives add mbm.counter dummy
 scoreboard objectives add mbm.mobcap_specfic dummy
 scoreboard objectives add mbm.mobcap dummy
 
+scoreboard objectives add mbm.internal_config.is_server dummy
+
 scoreboard players set #ActiveCap mbm.mobcap 128
 scoreboard players set #FoodTickMax mbm.condition 2
 scoreboard players set #ArrowTickMax mbm.condition 2
