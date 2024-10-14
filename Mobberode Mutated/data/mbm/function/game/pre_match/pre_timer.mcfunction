@@ -4,5 +4,7 @@ scoreboard players set #Second mbm.timer 60
 scoreboard players set #Minute mbm.timer 0
 scoreboard players set #Hour mbm.timer 0
 
+function mbm:game/survival/checks/shop
 function mbm:game/time/remove_timer
-tellraw @a ["",{"text":"[Vote - Placeholder]","clickEvent":{"action":"run_command","value":"/scoreboard players add #VotedPlayers mbm.votes 1"},"color":"blue"}]
+tag @a remove mbm.skipped
+tellraw @a [{"text":"You can skip the intermission early by accessing the shop and interacting with the \"Skip\" item.","color":"blue"}]

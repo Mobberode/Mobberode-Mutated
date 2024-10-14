@@ -8,3 +8,4 @@ tag @a remove mbm.completed_loading_player_data
 function mbm:saves/continue/restore_player_data_init
 
 function mbm:game/pre_match/begin_survival
+function mbm:game/survival/checks/shop

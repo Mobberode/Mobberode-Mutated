@@ -14,3 +14,6 @@ gamerule doTileDrops false
 ##Gamemodes
 defaultgamemode adventure
 gamemode adventure @a
+
+##Difficulty
+difficulty hard

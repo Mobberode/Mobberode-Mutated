@@ -10,5 +10,6 @@ function mbm:game/pre_match/player_loop
 function mbm:game/survival/checks/intermission_death
 function mbm:game/survival/pre_wave/team_transfer_loop
 
-schedule function mbm:game/time/remove_timer_survival 2.5s
-tellraw @a ["",{"text":"[Vote - Placeholder]","clickEvent":{"action":"run_command","value":"/scoreboard players add #VotedPlayers mbm.votes 1"},"color":"blue"}]
+function mbm:game/time/remove_timer_survival
+tag @a remove mbm.skipped
+tellraw @a [{"text":"Another reminder that you can once again, skip the intermission early by accessing the shop and interacting with the \"Skip\" item.","color":"blue"}]
