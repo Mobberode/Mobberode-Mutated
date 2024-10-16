@@ -1,0 +1,22 @@
+[
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        [
+          {
+            "text": "Souls: ",
+            "color": "white"
+          },
+          {
+            "score": {
+              "name": "#ShopCostVisual",
+              "objective": "mbm.counter"
+            },
+            "color": "aqua"
+          }
+        ]
+      ],
+      "mode": "append"
+    }
+  ]  

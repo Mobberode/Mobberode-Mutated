@@ -1,1 +1,1 @@
-execute as @a run attribute @s max_health base set 10
+execute as @a run attribute @s max_health base set 6

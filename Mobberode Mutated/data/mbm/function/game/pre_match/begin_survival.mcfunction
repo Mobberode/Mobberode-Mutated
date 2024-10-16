@@ -12,4 +12,3 @@ function mbm:game/survival/pre_wave/team_transfer_loop
 
 function mbm:game/time/remove_timer_survival
 tag @a remove mbm.skipped
-tellraw @a [{"text":"Another reminder that you can once again, skip the intermission early by accessing the shop and interacting with the \"Skip\" item.","color":"blue"}]

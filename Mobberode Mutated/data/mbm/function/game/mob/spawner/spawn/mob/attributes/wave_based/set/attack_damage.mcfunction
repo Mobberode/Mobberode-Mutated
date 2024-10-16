@@ -1,0 +1,1 @@
+$attribute @s minecraft:attack_damage base set $(attack_damage)
