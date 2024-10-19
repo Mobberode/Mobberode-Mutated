@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:barrier",
+              "components": {
+                "minecraft:item_model": "air"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "mbm:game/shop/menu/remove_backpage_data"
+    }
+  }  

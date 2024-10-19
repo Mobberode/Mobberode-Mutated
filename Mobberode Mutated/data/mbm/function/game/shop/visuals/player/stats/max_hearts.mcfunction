@@ -1,5 +1,5 @@
 ##Item
-item replace entity @s player.crafting.0 with red_dye[custom_name='[{"text":"Increase Maximum Hearts","color":"red"}]',lore=['{"text":"Increases max hearts by 1."}'],custom_data={mbm.shop.action:player.stats.max_hearts}]
+item replace entity @s player.crafting.0 with red_dye[item_name='[{"text":"Increase Maximum Hearts","color":"red"}]',lore=['{"text":"Increases max hearts by 1."}'],custom_data={mbm.shop.action:player.stats.max_hearts}]
 
 ##Cost
 #Max Hearts

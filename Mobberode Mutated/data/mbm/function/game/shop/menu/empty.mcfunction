@@ -1,3 +1,4 @@
+item replace entity @s player.crafting.3 with air
 item replace entity @s player.cursor with air
 
 item replace entity @s enderchest.0 with air
