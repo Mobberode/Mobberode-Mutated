@@ -1,0 +1,12 @@
+{
+    "values": [
+        "#minecraft:swords",
+        "#minecraft:pickaxes",
+        "#minecraft:enchantable/armor",
+        "#minecraft:enchantable/mace",
+        "#minecraft:enchantable/fishing",
+        "#minecraft:enchantable/bow",
+        "#minecraft:enchantable/crossbow",
+        "#minecraft:axes"
+        ]
+}

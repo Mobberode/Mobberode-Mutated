@@ -3,3 +3,5 @@ data modify storage mbm.cosmestic roles set value [{role:"Has.ZS.OGs",role_data:
 
 ##Spawner (Entry and Exit pools are to be copied into their seperate pools to advoid issues)
 function mbm:initalization/mobpool
+##Books
+function mbm:initalization/boa

@@ -1,0 +1,1 @@
+$attribute @s minecraft:movement_speed modifier add mbm.wave_bonus $(movement_speed) add_value

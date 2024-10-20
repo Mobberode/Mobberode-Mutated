@@ -1,0 +1,28 @@
+{
+    "description": " ",
+    "supported_items": "#mbm:enchantable",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 0,
+    "slots": [
+      "any"
+    ],
+    "effects": {
+      "minecraft:attributes": [
+        {
+          "id": "m",
+          "attribute": "minecraft:scale",
+          "amount": 1,
+          "operation": "add_value"
+        }
+      ]
+    }
+  }  

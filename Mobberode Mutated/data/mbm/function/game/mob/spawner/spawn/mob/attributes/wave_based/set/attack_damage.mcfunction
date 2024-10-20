@@ -1,1 +1,1 @@
-$attribute @s minecraft:attack_damage base set $(attack_damage)
+$attribute @s minecraft:attack_damage modifier add mbm.wave_bonus $(attack_damage) add_value

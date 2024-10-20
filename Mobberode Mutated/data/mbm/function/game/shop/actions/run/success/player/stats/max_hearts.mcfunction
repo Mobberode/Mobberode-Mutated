@@ -1,4 +1,4 @@
-playsound minecraft:entity.phantom.death player @s ~ ~ ~ 0.75 0.5
+execute at @s run playsound minecraft:entity.phantom.death player @s ~ ~ ~ 0.75 0.5
 
 ##Run
 execute store result storage mbm.shop macro_value int 1 run scoreboard players add @s mbm.shop.player.upgrades.max_hearts 2
