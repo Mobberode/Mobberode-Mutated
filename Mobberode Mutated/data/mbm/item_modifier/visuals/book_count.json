@@ -1,0 +1,22 @@
+[
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        [
+          {
+            "text": "Book Count: ",
+            "color": "white"
+          },
+          {
+            "score": {
+              "name": "@s",
+              "objective": "mbm.books"
+            },
+            "color": "aqua"
+          }
+        ]
+      ],
+      "mode": "append"
+    }
+  ]  
