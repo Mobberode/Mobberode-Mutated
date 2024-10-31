@@ -1,3 +1,6 @@
-scoreboard players add @a[team=!Alive] mbm.spawnpoint_energy 50
+scoreboard players set #SPEPassiveTick mbm.timer 0
 
-execute if score #Status mbm.game_status matches 4 run schedule function mbm:game/survival/spenergy/passive/slow 40t
+scoreboard players set #Add mbm.spawnpoint_energy 50
+scoreboard players set #TickDelay mbm.spawnpoint_energy 40
+
+function mbm:game/survival/spenergy/passive/tick

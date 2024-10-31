@@ -5,5 +5,3 @@ item replace entity @s hotbar.2 with paper[item_name='{"text":"Last Played Savef
 
 execute store result storage mbm.uuids current_savenum int 1 run scoreboard players set @s mbm.savepage 1
 function mbm:saves/menu/saves/initalize_inventory_hud
-
-item replace entity @s hotbar.8 with paper[item_name='{"text":"Start new Savefile","color":"aqua"}',custom_data={mbm_saves.action:new_savable_game}]
