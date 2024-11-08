@@ -1,4 +1,6 @@
-#Entry Pool (Used for introducing mobs into the active pool)
-$data modify storage minecraft:mbm.active_spawner active_mobpool.mobs append from storage minecraft:mbm.active_spawner entry_mobpool.mobs[{wave_$(wave):[{}]}].wave_$(wave)[]
-#Remove from active entry pool
-$data remove storage mbm.active_spawner entry_mobpool.mobs[{wave_$(wave):[{}]}].wave_$(wave)[]
+##Entry pool
+#Copy to different storage
+data modify storage mbm.temp entry_mobpool set from storage mbm.active_spawner entry_mobpool
+
+#Run loop which checks all entries in active entry pool
+function mbm:game/mob/pool/entry_scan

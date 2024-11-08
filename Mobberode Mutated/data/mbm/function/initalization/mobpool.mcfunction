@@ -8,3 +8,8 @@ data modify storage mbm.spawner exit_mobpool set value {ids:[{wave_12:[{id:zombi
 
 #Remove something in pool
 #/data remove storage minecraft:mbm.test active_mobpool.mobs[{wave_1:[{}]}]
+
+##Revamp
+data modify storage mbm.spawner entry_mobpool set value {data:[{wave:1,contents:{mob_data:[{id:zombie,spawner_tag:"zs.zombiespawn",entity_namespace:"minecraft:zombie",modifications:{}}]}},{wave:3,contents:{mob_data:[{id:husk,spawner_tag:"zs.huskspawn",entity_namespace:"minecraft:husk",modifications:{}}]}},{wave:6,contents:{mob_data:[{id:drowned,spawner_tag:"zs.drownedspawn",entity_namespace:"minecraft:drowned",modifications:{}}]}},{wave:9,contents:{mob_data:[{id:skeleton,spawner_tag:"zs.skeletonspawn",entity_namespace:"minecraft:skeleton",modifications:{}}]}},{wave:14,contents:{mob_data:[{id:wither_skeleton,spawner_tag:"zs.wither.skeletonspawn",entity_namespace:"minecraft:wither_skeleton",modifications:{}}]}}]}
+
+data modify storage mbm.spawner exit_mobpool set value {data:[{wave:12,contents:{mob_data:[{id:zombie}]}},{wave:20,contents:{mob_data:[{id:skeleton}]}}]}

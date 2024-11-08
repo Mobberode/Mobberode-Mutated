@@ -5,4 +5,3 @@ execute if score #Status mbm.game_status matches 4 run function mbm:game/surviva
 
 ##Init lobby
 function mbm:host/find_host
-execute as @p[tag=mbm.host] run return run function mbm:saves/prompt
