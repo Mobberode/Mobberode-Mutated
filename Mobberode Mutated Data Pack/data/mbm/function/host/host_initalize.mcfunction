@@ -3,9 +3,6 @@ tag @s add mbm.host
 
 function mbm:host/verify_uuid
 
-##Datacheck
-function mbm:host/savedata_check
-
 ##For extensions
 function #mbm:extensions/events/player/became_host
 

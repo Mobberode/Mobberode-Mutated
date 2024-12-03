@@ -8,3 +8,6 @@ data modify storage mbm.saves saves set value [{uuid:-1,savedata:[{slot:-1,used:
 #data get storage minecraft:mbm.saves saves[{uuid:-1}]
 ##To change something in a list
 #data modify storage minecraft:mbm.saves saves[{savedata:{slot:-1}}].uuid set value -1
+
+##Init saves as host
+execute if data storage mbm.saves saves as @r[tag=mbm.host] run return run function mbm:saves/prompt
