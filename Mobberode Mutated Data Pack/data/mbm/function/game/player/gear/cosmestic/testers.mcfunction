@@ -1,4 +1,4 @@
-item replace entity @s armor.head with iron_helmet[unbreakable={},trim={pattern:"sentry",material:"emerald"}]
-item replace entity @s armor.chest with iron_chestplate[unbreakable={},trim={pattern:"sentry",material:"emerald"}]
-item replace entity @s armor.legs with iron_leggings[unbreakable={},trim={pattern:"sentry",material:"emerald"}]
-item replace entity @s armor.feet with iron_boots[unbreakable={},trim={pattern:"sentry",material:"emerald"}]
+item modify entity @s armor.head mbm:visuals/roles/tester
+item modify entity @s armor.chest mbm:visuals/roles/tester
+item modify entity @s armor.legs mbm:visuals/roles/tester
+item modify entity @s armor.feet mbm:visuals/roles/tester

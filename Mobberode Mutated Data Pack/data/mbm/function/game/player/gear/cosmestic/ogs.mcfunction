@@ -1,4 +1,4 @@
-item replace entity @s armor.head with iron_helmet[unbreakable={},trim={pattern:"eye",material:"diamond"}]
-item replace entity @s armor.chest with iron_chestplate[unbreakable={},trim={pattern:"eye",material:"diamond"}]
-item replace entity @s armor.legs with iron_leggings[unbreakable={},trim={pattern:"eye",material:"diamond"}]
-item replace entity @s armor.feet with iron_boots[unbreakable={},trim={pattern:"eye",material:"diamond"}]
+item modify entity @s armor.head mbm:visuals/roles/og
+item modify entity @s armor.chest mbm:visuals/roles/og
+item modify entity @s armor.legs mbm:visuals/roles/og
+item modify entity @s armor.feet mbm:visuals/roles/og

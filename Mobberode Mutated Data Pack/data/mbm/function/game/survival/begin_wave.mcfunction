@@ -5,10 +5,10 @@ scoreboard players set #Spawned mbm.mobcap 0
 execute as @a at @s run function mbm:game/survival/begin_visual_audio
 function mbm:game/survival/checks/death
 function mbm:game/survival/spenergy/detect
-function mbm:game/mob/cap/increase
 
 ##Edit Mobpool and add to wave count
 execute store result storage mbm.macros wave int 1 run scoreboard players add #Wave mbm.wave 1
+function mbm:game/mob/cap/increase
 function mbm:game/mob/pool/entry with storage mbm.macros
 function mbm:game/mob/pool/exit with storage mbm.macros
 
