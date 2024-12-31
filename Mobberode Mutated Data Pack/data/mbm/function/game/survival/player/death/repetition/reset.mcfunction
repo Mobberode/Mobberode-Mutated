@@ -1,0 +1,1 @@
+scoreboard players reset * mbm.total_deaths

@@ -1,0 +1,2 @@
+execute if data storage mbm.temp {death_penalty_stews:0} run data modify storage mbm.temp death_penalty_stews set value 1
+execute if data storage mbm.temp {death_penalty_arrows:0} run data modify storage mbm.temp death_penalty_arrows set value 1

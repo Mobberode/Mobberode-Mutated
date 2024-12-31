@@ -1,4 +1,5 @@
 ##Start wave
+function mbm:game/survival/player/death/repetition/reset
 execute as @a run function mbm:game/survival/player/refresh_conditions
 scoreboard players set #Status mbm.game_status 4
 scoreboard players set #Spawned mbm.mobcap 0

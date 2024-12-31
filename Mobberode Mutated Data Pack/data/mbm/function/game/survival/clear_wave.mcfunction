@@ -7,6 +7,7 @@ schedule clear mbm:visuals/wave_visual
 
 ##Reward players
 scoreboard players add @a mbm.souls 50
+function mbm:game/survival/player/death/repetition/reset
 function mbm:game/player/gear/afterwave_tick
 
 ##Save save data
