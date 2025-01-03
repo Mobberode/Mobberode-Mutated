@@ -4,6 +4,7 @@ $data modify storage mbm.saves_temp player_data set from storage mbm.saves_temp 
 ##Edit temp storage
 #Inventory
 data modify storage mbm.saves_temp player_data.inventory set from entity @s Inventory
+execute positioned ~ -63 ~ run function mbm:saves/push/player_data/get_misc_inv
 #Pos
 data modify storage mbm.saves_temp player_data.position set from entity @s Pos
 #Rot
