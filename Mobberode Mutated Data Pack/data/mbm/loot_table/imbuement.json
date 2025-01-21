@@ -1,0 +1,47 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:poisonous_potato",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "nbt": "cached_name",
+                  "storage": "mbm.imbuements",
+                  "interpret": true
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "nbt": "cached_lore",
+                    "storage": "mbm.imbuements",
+                    "interpret": true
+                  }
+                ],
+                "mode": "insert"
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_model": "minecraft:red_dye"
+                }
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{mbm.shop.action:player.stats.hearty_vibrance}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

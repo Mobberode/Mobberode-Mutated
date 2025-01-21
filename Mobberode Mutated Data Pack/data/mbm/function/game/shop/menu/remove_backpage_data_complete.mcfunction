@@ -1,1 +1,1 @@
-clear @a *[item_model="air",item_name='{"text":"mbm.shop.backpage.internal (not to seen/edited!)"}']
+clear @a *[item_model="air",item_name={text:"mbm.shop.backpage.internal (not to seen/edited!)"}]

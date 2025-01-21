@@ -1,1 +1,1 @@
-item replace entity @s enderchest.18 with barrier[item_name='{"text":"Backpage","color":"red"}',custom_data={mbm.shop.action:backpage}]
+item replace entity @s enderchest.18 with barrier[item_name={text:Backpage,color:red},custom_data={mbm.shop.action:backpage}]

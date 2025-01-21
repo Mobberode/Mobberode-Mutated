@@ -1,5 +1,5 @@
 ##Game Over!
-tellraw @a [{"text":"Game Over! Waves survived: "},{"score":{"name":"#Wave","objective":"mbm.wave"}}]
+tellraw @a [{text:"Game Over! Waves survived: "},{score:{name:"#Wave",objective:mbm.wave}}]
 gamemode adventure @a
 
 schedule clear mbm:game/survival/checks/clear

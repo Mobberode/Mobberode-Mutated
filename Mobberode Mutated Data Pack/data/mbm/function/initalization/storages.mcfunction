@@ -5,3 +5,5 @@ data modify storage mbm.cosmestic roles set value [{role:"Has.ZS.OGs",role_data:
 function mbm:initalization/mobpool
 ##Books
 function mbm:initalization/boa
+##Imbuements
+function mbm:initalization/imbuements

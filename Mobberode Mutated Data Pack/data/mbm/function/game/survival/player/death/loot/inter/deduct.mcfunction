@@ -1,5 +1,5 @@
 ##Deduct loot as punishment
-tellraw @s [{"text":"However. Your death is costly... -20% Arrows and Stews","color":"red"}]
+tellraw @s [{text:"However. Your death is costly... -20% Arrows and Stews",color:red}]
 
 function mbm:game/survival/player/death/loot/get
 function mbm:game/survival/player/death/loot/maths {percentage:0.35}

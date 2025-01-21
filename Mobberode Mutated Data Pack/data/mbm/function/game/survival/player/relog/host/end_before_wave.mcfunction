@@ -1,1 +1,1 @@
-tellraw @a [{"text":"Host Disconnected!","color":"red"}]
+tellraw @a [{text:"Host Disconnected!",color:red}]

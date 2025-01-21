@@ -1,1 +1,1 @@
-$tellraw @s ["",{"text":"Architect Book Obtained!\n","color":"gold"},$(name),{"text":"\n"},$(lore)]
+$tellraw @s [{text:"Architect Book Obtained! | ",color:gold},$(name),{text:" | "},$(lore)]

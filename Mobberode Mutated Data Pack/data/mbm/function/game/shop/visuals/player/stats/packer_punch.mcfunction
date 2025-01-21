@@ -1,5 +1,5 @@
 ##Item
-item replace entity @s player.crafting.0 with skull_banner_pattern[item_name='[{"text":"Hearty Vibrance","color":"red"}]',lore=['{"text":"Grants +1 maximum hearts"}'],custom_data={mbm.shop.action:player.stats.hearty_vibrance}]
+item replace entity @s player.crafting.0 with skull_banner_pattern[item_name=[{text:"Hearty Vibrance",color:red}],lore=[{text:"Grants +1 maximum hearts"}],custom_data={mbm.shop.action:player.stats.hearty_vibrance}]
 
 ##Cost
 #Packer Punch
