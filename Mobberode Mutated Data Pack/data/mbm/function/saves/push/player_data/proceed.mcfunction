@@ -1,5 +1,5 @@
 #Store current plr data to another storage
-$data modify storage mbm.saves_temp player_data set from storage mbm.saves_temp save_data.pids[{uuid:$(saved_uuid)}].playerdata
+$data modify storage mbm.saves_temp player_data set from storage mbm.saves_temp save_data.pids[{uuid:"$(saved_uuid)"}].playerdata
 
 ##Edit temp storage
 #Inventory
@@ -19,4 +19,4 @@ data modify storage mbm.saves_temp player_data.attributes set from entity @s att
 execute store result storage mbm.saves_temp player_data.souls int 1 run scoreboard players get @s mbm.souls
 
 ##Save recent plr data to current pid storage
-$data modify storage mbm.saves_temp save_data.pids[{uuid:$(saved_uuid)}].playerdata set from storage mbm.saves_temp player_data
+$data modify storage mbm.saves_temp save_data.pids[{uuid:"$(saved_uuid)"}].playerdata set from storage mbm.saves_temp player_data

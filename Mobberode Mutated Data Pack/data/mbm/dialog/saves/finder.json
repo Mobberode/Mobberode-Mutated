@@ -1,0 +1,11 @@
+{
+    "type": "multi_action",
+    "title": "",
+    "body": [{"type":"plain_message","contents":[{"text":"Savefinder"}]}],
+    "actions": [
+        {"label": "Play","on_click":{"action":"show_dialog","dialog":"mbm:saves/finder"}},
+        {"label": "Delete"},
+        {"label": "<"},
+        {"label": ">"}
+    ]
+}

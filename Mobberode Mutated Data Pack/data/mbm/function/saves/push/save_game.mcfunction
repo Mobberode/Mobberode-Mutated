@@ -1,7 +1,7 @@
 tellraw @a [{text:"Saving Game..."}]
 
 #Store current save to another storage
-$data modify storage mbm.saves_temp save_data set from storage mbm.saves saves[{uuid:$(savedata_uuid)}].savedata[{slot:$(current_savenum)}]
+$data modify storage mbm.saves_temp save_data set from storage mbm.saves saves[{uuid:"$(savedata_uuid)"}].savedata[{slot:$(current_savenum)}]
 
 ##Edit temp storage
 execute store result storage mbm.saves_temp save_data.match.wave int 1 run scoreboard players get #Wave mbm.wave
@@ -17,4 +17,4 @@ data modify storage mbm.saves_temp save_data.spawner_data.exit_mobpool{} set fro
 execute as @a run function mbm:saves/push/player_data/init
 
 ##Save recent data to current save
-$data modify storage mbm.saves saves[{uuid:$(savedata_uuid)}].savedata[{slot:$(current_savenum)}] set from storage mbm.saves_temp save_data
+$data modify storage mbm.saves saves[{uuid:"$(savedata_uuid)"}].savedata[{slot:$(current_savenum)}] set from storage mbm.saves_temp save_data

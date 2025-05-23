@@ -1,0 +1,10 @@
+{
+    "type": "multi_action",
+    "title": "",
+    "body": [{"type":"plain_message","contents":[{"text":"Mobberode Mutated\nSave Menu"}]}],
+    "actions": [
+        {"label": "Savefiles","on_click":{"action":"show_dialog","dialog":"mbm:saves/finder"}},
+        {"label": "New Save (No Saving)"},
+        {"label": "Last Played Savefile"}
+    ]
+}
