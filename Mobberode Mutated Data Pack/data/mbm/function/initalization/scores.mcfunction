@@ -39,6 +39,6 @@ scoreboard players set #2 mbm.counter 2
 
 scoreboard objectives add mbm.role trigger
 
-scoreboard objectives add zs.x dummy
-scoreboard objectives add zs.y dummy
-scoreboard objectives add zs.z dummy
+scoreboard objectives add mb.base.x dummy
+scoreboard objectives add mb.base.y dummy
+scoreboard objectives add mb.base.z dummy

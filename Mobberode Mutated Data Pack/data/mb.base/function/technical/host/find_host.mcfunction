@@ -1,0 +1,1 @@
+execute unless entity @r[tag=mb.host] as @r[tag=!mb.host] run return run function mb.base:technical/host/host_initalize

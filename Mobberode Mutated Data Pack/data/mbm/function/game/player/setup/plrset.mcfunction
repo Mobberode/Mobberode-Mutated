@@ -1,4 +1,4 @@
-team join Alive
+team join mb.base.alive
 clear @s
 effect give @s instant_health 5 252
 effect give @s saturation 5 252

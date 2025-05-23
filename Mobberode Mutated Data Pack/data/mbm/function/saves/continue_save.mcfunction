@@ -1,4 +1,4 @@
-execute store result score @r[tag=mbm.host] mbm.savefile_last_played run data get storage mbm.uuids current_savenum
+execute store result score @r[tag=mb.host] mbm.savefile_last_played run data get storage mbm.uuids current_savenum
 scoreboard players set #State mbm.game_savable 1
 execute as @a run function mbm:saves/continue_player_init
 ##Restore all match data (waves,lives and other things)

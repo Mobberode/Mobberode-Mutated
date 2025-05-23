@@ -2,7 +2,7 @@
 tp ~ ~ ~
 
 ##Tags
-team join Dead
+team join mb.base.dead
 tag @s add mbm.mob
 
 ##Edit self to be permanent

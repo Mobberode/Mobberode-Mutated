@@ -6,7 +6,7 @@ function mbm:initalization/storages
 function #mbm:extensions/load
 
 function mbm:roles
-function mbm:technical/border/poscheck
+function mb.base:technical/border/poscheck
 
 function mbm:equipment/cache/role_loop
 

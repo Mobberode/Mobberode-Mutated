@@ -7,5 +7,5 @@ tellraw @s [{text:"You have died and been sent back to the lobby. Go back to the
 
 function mbm:game/survival/player/death/repetition/check
 
-team join Dead
+team join mb.base.dead
 function mbm:game/survival/player/death/loot/deduct
