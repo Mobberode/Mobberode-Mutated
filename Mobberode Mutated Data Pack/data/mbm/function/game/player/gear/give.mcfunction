@@ -6,3 +6,5 @@ item replace entity @s weapon.offhand with bow[unbreakable={}]
 function mbm:game/player/gear/food
 function mbm:game/player/gear/arrows
 function mbm:game/player/gear/cosmestic_check
+
+function #mbm:give
